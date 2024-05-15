@@ -1,0 +1,94 @@
+@font-face {
+font-family: 'batman';
+src: url(../Fontes/batmfa__.ttf) format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'modernsans';
+src: url(../Fontes/ModernSans-Light.otf) format('opentype');
+font-weight: normal;
+font-style: normal;    
+}
+
+body{
+background-color: black;
+}
+
+#menu ul {
+text-align: center;
+padding: 0px;
+background-color:#ffd101;
+list-style: none;
+margin-bottom: 40px;
+}
+
+#menu ul li{
+display: inline-block; 
+}
+
+#menu ul li a{
+font-family: 'batman';
+padding: 5px 20px 5px 20px;
+display: inline-block;
+color: #000;
+font-size:20px;
+text-decoration: none;
+}
+
+#menu ul li a:hover{
+background-color:#c09d00;
+color: #000;
+}
+
+#principal{
+padding: 40px;
+width: 900px;
+margin: auto;
+background-color:#1a1a1a;
+}
+
+#principal p{
+font-family: 'modernsans';
+font-size: 20px;
+text-align: justify;
+color: aliceblue;
+}
+
+#principal h1, h2{
+font-family: 'batman';
+color: aliceblue;
+}
+
+#principal li{
+font-family: 'modernsans';
+color: aliceblue;
+font-size: 17px;
+padding: 10px;
+}
+
+#persopic{
+float: right;
+width: 170px;
+padding-left: 20px;
+}
+
+#actor, #family{
+width: 70%;
+}
+
+#reality{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+padding: 30px;
+}
+
+#index{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+}
